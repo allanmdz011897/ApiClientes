@@ -24,11 +24,11 @@ class GuardarClienteRequest extends FormRequest
     public function rules()
     {
         return [
-        "dpi" => "requerid",
-        "name" => "requerid",
-        "email" => "requerid",
-        "github" => "requerid",
-        "phone" => "requerid"
+        "dpi" => "required",
+        "name" => "required",
+        "email" => "required",
+        "github" => "required",
+        "phone" => "required"
         ];
     }
 }
